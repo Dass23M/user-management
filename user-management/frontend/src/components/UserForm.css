@@ -1,0 +1,33 @@
+/* src/components/UserForm.css */
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+  }
+  
+  .user-form button {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-form button:hover {
+    background-color: #45a049;
+  }
+  
